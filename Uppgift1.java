@@ -3,22 +3,22 @@ import java.util.Scanner;
 public class Uppgift1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// läs in 2 tal, konkatenera dessa med blanksteg och läs in strängens längd
 		Scanner uppgift1a = new Scanner(System.in);
 		
-		String ord ;
-		String ord2 ;
-		String nyttOrd;
+		String word ;
+		String secondWord ;
+		String newOrd;
 		
 		System.out.print("skriv ett ord:");
-		ord = uppgift1a.nextLine();
+		word = uppgift1a.nextLine();
 		
 		System.out.print("skriv ett till ord:");
-		ord2 = uppgift1a.nextLine();
+		secondWord = uppgift1a.nextLine();
 		
-		nyttOrd = ord + " " + ord2;
-		System.out.println(nyttOrd);
-		System.out.println(nyttOrd.length());
+		newOrd = word + " " + secondWord;
+		System.out.println(newOrd);
+		System.out.println(newOrd.length());
 		
 		uppgift1a.close();
 		
